@@ -5,6 +5,8 @@ body {
     background-size: cover;
 }
 
+/* Меню */
+
 @import url('https://fonts.googleapis.com/css?family=Arimo');
 
 .top-menu {
@@ -26,10 +28,14 @@ body {
 
 .left-item {
     float: left;
+    width: 23%;
+    text-align: center;
 }
 
 .right-item {
     float: right;
+    width: 23%;
+    text-align: center;
 }
 
 .navbar-logo {
@@ -39,6 +45,14 @@ body {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+}
+
+.navbar-logo img:hover {
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    transform: scale(1.1);
 }
 
 .menu-main a {
@@ -86,5 +100,6 @@ body {
 @media (max-width: 630px) {
     .menu-main li {
         display: block;
+        width: 100%;
     }
 }
