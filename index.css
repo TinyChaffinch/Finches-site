@@ -1,5 +1,6 @@
 .main-info {
-    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
     color: white;
-    background: rgba(34, 34, 34, .2);
+    background: rgba(34, 34, 34, .8);
 }
