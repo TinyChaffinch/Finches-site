@@ -19,6 +19,7 @@ a, a:visited, a:hover, a:active {
 /* Меню */
 
 .top-menu {
+    text-shadow: 3px 3px 2px black;
     position: relative;
     background: rgba(34, 34, 34, .2);
 }

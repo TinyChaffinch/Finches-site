@@ -4,6 +4,7 @@ main a {
     margin: 10px 0 10px 0;
     text-align: center;
     text-decoration: none;
+    text-shadow: 3px 3px 2px black;
     color: white;
     display: block;
     line-height: 30px;
