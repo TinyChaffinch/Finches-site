@@ -158,6 +158,13 @@ p {
 
 /* Медиа запросы */
 
+@media (min-width: 900px) {
+    .mediapadding {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+}
+
 @media (max-width: 830px) {
     .menu-main {
         padding-top: 90px;
