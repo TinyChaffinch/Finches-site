@@ -1,3 +1,25 @@
+/* Кнопки скролла */
+
+main a {
+    margin: 10px 0 10px 0;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    display: block;
+    line-height: 30px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    background: rgba(34, 34, 34, .2);
+}
+
+main a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+/* Изоображения */
+
 .images {
     margin: 20px;
     display: grid;
