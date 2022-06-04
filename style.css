@@ -66,12 +66,15 @@ main a:visited {
 h1,
 h2,
 h3 {
+    letter-spacing: 2px;
     line-height: 80%;
 }
 
 h1 {
+    text-align: center;
     padding-bottom: 10px;
     border-bottom: 1px solid white;
+    line-height: 1.1;
 }
 
 p {
