@@ -84,6 +84,7 @@ p {
 .main-info {
     text-shadow: 3px 3px 2px black;
     text-indent: 20px;
+    text-align: justify;
     letter-spacing: 1px;
     margin-top: 20px;
     padding: 10px;
