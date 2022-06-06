@@ -1,6 +1,12 @@
-img {
-    box-sizing: border-box;
+/* Оглавление */
+
+.content {
+    list-style-type: none;
+    padding: 0;
+    text-indent: 0;
 }
+
+/* Аудио */
 
 audio {
     text-shadow: none;
@@ -10,6 +16,12 @@ audio {
     display: flex;
     justify-content: center;
     align-items: center
+}
+
+/* Изоображения */
+
+img {
+    box-sizing: border-box;
 }
 
 figure {
