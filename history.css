@@ -20,8 +20,10 @@ audio {
 
 /* Изоображения */
 
-img {
+.main-info img {
     box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 1.5em;
 }
 
 figure {
@@ -31,6 +33,7 @@ figure {
 }
 
 .sreda img {
+    border: none;
     width: 100%;
     padding: 10px;
     object-fit: cover;
@@ -47,7 +50,7 @@ figure {
 }
 
 .povedenieImgNest {
-    margin: 10px;
+    margin: 0 10px 0 10px;
     width: 30%;
     min-width: 160px;
     float: right;
