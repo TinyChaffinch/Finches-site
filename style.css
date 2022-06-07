@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Arimo');
 
 html {
-    scroll-behavior: smooth;
     font-family: 'Arimo', sans-serif;
 }
 
@@ -19,7 +18,7 @@ a:active {
     text-decoration: none;
 }
 
-/* Кнопки скролла */
+/* Кнопки прокрутки сверху и снизу */
 
 main a {
     margin: 10px 0 10px 0;
@@ -60,6 +59,36 @@ main a:visited {
     color: rgb(184, 98, 0);
     background: none;
 }
+
+/* Появляющаяся кнопка прокрутки вверх */
+
+.back_to_top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 9999;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    text-indent: 0;
+    text-shadow: none;
+    letter-spacing: normal;
+    line-height: 30px;
+    background: rgba(83, 83, 83, 0.2);
+    color: white;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: none;
+  }
+  
+  .back_to_top:hover {
+    background: rgba(83, 83, 83, 0.5);
+  }
+  
+  .back_to_top-show {
+    display: block;
+  }
 
 /* Оформление главного блока */
 
