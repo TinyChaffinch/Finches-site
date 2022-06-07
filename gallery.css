@@ -1,5 +1,9 @@
 /* Изоображения */
 
+main a {
+    background: none;
+}
+
 .images {
     margin: 20px;
     display: grid;
