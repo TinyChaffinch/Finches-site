@@ -20,8 +20,14 @@ a:active {
 
 /* Кнопки прокрутки сверху и снизу */
 
-main a {
-    margin: 10px 0 10px 0;
+.topdownbtn {
+    margin-top: 10px;
+    display: block;
+}
+
+/* Текстовые ссылки */
+
+a {
     text-align: center;
     text-decoration: none;
     text-shadow: 3px 3px 2px black;
@@ -31,33 +37,22 @@ main a {
     font-size: 18px;
     letter-spacing: 2px;
     font-weight: bold;
-    background: rgba(34, 34, 34, .2);
-}
-
-main a:hover,
-main a:focus {
-    -webkit-transition: .5s ease-in-out;
-    -moz-transition: .5s ease-in-out;
-    -o-transition: .5s ease-in-out;
-    transition: .5s ease-in-out;
-    background: rgba(0, 0, 0, .3);
-    text-decoration: none;
-}
-
-main a:visited {
-    color: white;
-    text-decoration: none;
-}
-
-.abouthref {
     display: inline;
     background: none;
 }
 
-.abouthref:hover,
-.abouthref:focus {
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
     color: rgb(184, 98, 0);
-    background: none;
 }
 
 /* Появляющаяся кнопка прокрутки вверх */

@@ -1,9 +1,11 @@
 /* Оглавление */
 
-.content {
+.content li {
     list-style-type: none;
     padding: 0;
     text-indent: 0;
+    text-align: center;
+    margin-top: 5px;
 }
 
 /* Аудио */
@@ -49,10 +51,20 @@ figure {
     object-fit: cover;
 }
 
-.povedenieImgNest {
+.rightFloat {
     margin: 0 10px 0 10px;
     width: 30%;
     min-width: 160px;
     float: right;
     object-fit: cover;
+}
+
+/* Стих */
+
+.stih {
+    text-align: center;
+}
+
+.stih p {
+    text-indent: 0;
 }
