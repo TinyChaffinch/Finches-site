@@ -37,7 +37,7 @@
                     <a class="back_to_top" title="Наверх">&uarr;</a>
                     <h1>Основная информация</h1>
                     <picture>
-                        <source srcset="image/Chaffinch.webp" type="image/webp" title="Зяблик">
+                        <source srcset="image/Chaffinch.webp" type="image/webp">
                         <a href="image/Chaffinch-orig.jpg" data-lightbox="historyChaf">
                             <img class="rightFloat" src="image/Chaffinch.jpg" type="image/jpg" title="Заблик">
                         </a>
@@ -100,7 +100,7 @@
                     </ul>
                     <h1 id="taksonomiya">Таксономия</h1>
                     <picture>
-                        <source srcset="image/Carl.webp" type="image/webp" title="Карл Линней">
+                        <source srcset="image/Carl.webp" type="image/webp">
                         <a href="image/Carl-orig.jpg" data-lightbox="historyCarl">
                             <img class="rightFloat" src="image/Carl.jpg" type="image/jpg" title="Карл Линней">
                         </a>
@@ -308,6 +308,9 @@
                     <p>
                         Самцы обычно поют два или три разных типа песен, а также существуют региональные диалекты.
                     </p>
+                    <div class="song">
+                        <audio src="audio/Chaffinch song.ogg" type="audio/ogg; codecs=vorbis" controls></audio>
+                    </div>
                     <p>
                         Приобретение молодым обыкновенным зябликом своей песни стало предметом влиятельного исследования
                         британского этолога Уильяма Торпа. Торп определил, что если молодой обыкновенный зяблик не
@@ -321,10 +324,13 @@
                         они
                         обычно молчат.
                     </p>
-                    <div class="song">
-                        <audio src="audio/Chaffinch song.ogg" type="audio/ogg; codecs=vorbis" controls></audio>
-                    </div>
                     <h1 id="rasprostr">Распространение и среда обитания</h1>
+                    <figure class="sreda">
+                        <a href="image/Rangemap.png" data-lightbox="historyRang">
+                            <img src="image/Rangemap.png" title="Карта зон обитания">
+                        </a>
+                        <figcaption>Карта зон обитания</figcaption>
+                    </figure>
                     <p>
                         Обыкновенный зяблик размножается в лесистых районах, где изотерма июля составляет от 12 до 30 °
                         C
@@ -353,17 +359,10 @@
                         забредает
                         в восточную часть Северной Америки, хотя некоторые наблюдения могут быть беглецами.
                     </p>
-                    <figure class="sreda">
-                        <a href="image/Rangemap.png" data-lightbox="historyRang">
-                            <img src="image/Rangemap.png" title="Карта зон обитания">
-                        </a>
-                        <figcaption>Карта зон обитания</figcaption>
-                    </figure>
                     <h1 id="povedenie">Поведение</h1>
                     <h2>Размножение</h2>
                     <picture>
-                        <source class="povedenieImgEgg" srcset="image/Egg-of-chaffinch.webp" type="image/webp"
-                            title="Яйца зябликов">
+                        <source class="povedenieImgEgg" srcset="image/Egg-of-chaffinch.webp" type="image/webp">
                         <a href="image/Egg-of-chaffinch.jpg" data-lightbox="historyEgg">
                             <img class="povedenieImgEgg" src="image/Egg-of-chaffinch.jpg" type="image/jpg"
                                 title="Яйца зябликов">
@@ -379,7 +378,7 @@
                         июня. Самец привлекает самку на свою территорию песней.
                     </p>
                     <picture>
-                        <source srcset="image/Nest-of-chaffinch.webp" type="image/webp" title="Гнездо зябликов">
+                        <source srcset="image/Nest-of-chaffinch.webp" type="image/webp">
                         <a href="image/Nest-of-chaffinch.jpg" data-lightbox="historyNest">
                             <img class="rightFloat" src="image/Nest-of-chaffinch.jpg" type="image/jpg"
                                 title="Гнездо зябликов">
@@ -424,7 +423,7 @@
                     </p>
                     <h2>Кормление</h2>
                     <picture>
-                        <source srcset="image/Feeding.webp" type="image/webp" title="Кормление">
+                        <source srcset="image/Feeding.webp" type="image/webp">
                         <a href="image/Feeding.jpg" data-lightbox="historyFeed">
                             <img class="leftFloat" src="image/Feeding.jpg" type="image/jpg" title="Кормление">
                         </a>
@@ -526,7 +525,7 @@
                     </p>
                     <h1 id="vinkensport">Винкенспорт</h1>
                     <picture>
-                        <source srcset="image/Vinkensport.webp" type="image/webp" title="Соревнования по Винкенспорту">
+                        <source srcset="image/Vinkensport.webp" type="image/webp">
                         <a href="image/Vinkensport-orig.jpg" data-lightbox="historyVink">
                             <img class="rightFloat" src="image/Vinkensport.jpg" type="image/jpg"
                                 title="Соревнования по Винкенспорту">
@@ -548,6 +547,12 @@
                         вида спорта.
                     </p>
                     <h2>Описание</h2>
+                    <picture>
+                        <source srcset="image/Vinken-cage.webp" type="image/webp">
+                        <a href="image/Vinken-cage.jpg" data-lightbox="historyVink">
+                            <img class="leftFloat" src="image/Vinken-cage.jpg" type="image/jpg" title="Клетка зяблика">
+                        </a>
+                    </picture>
                     <p>
                         В соревновании ряд небольших клеток, в каждой из которых находится один самец зяблика,
                         выстраивается
@@ -599,21 +604,16 @@
                     <p>
                         Соревнования по быстрому пению для зябликов также являются обычным явлением в Гайане, Тринидаде,
                         Суринаме и Бразилии. Самцов зябликов помещают в клетки на шестах на расстоянии одного фута друг
-                        от
-                        друга. Выигрывает тот, кто первым наберет 50 песен. Незаконный ввоз этих зябликов от иммигрантов
-                        из
-                        этих стран бросил вызов властям Нью-Йорка.
+                        от друга. Выигрывает тот, кто первым наберет 50 песен. Незаконный ввоз этих зябликов от
+                        иммигрантов из этих стран бросил вызов властям Нью-Йорка.
                     </p>
                     <h3>Инциденты с мошенничеством</h3>
                     <p>
                         Как и в других видах спорта, в vinkensport были свои скандалы с мошенничеством, а также
-                        обвинения в
-                        искусственном улучшении. Один зяблик пропел рекордные 1278 суск-и-вейтов за час, а владельца
-                        позже
-                        обвинили в допинге птицы тестостероном. После того, как один из участников исполнил одинаковое
-                        количество призывов за три раунда, коробка была открыта, и внутри был обнаружен мини-
-                        проигрыватель
-                        компакт -дисков.
+                        обвинения в искусственном улучшении. Один зяблик пропел рекордные 1278 суск-и-вейтов за час, а
+                        владельца позже обвинили в допинге птицы тестостероном. После того, как один из участников
+                        исполнил одинаковое количество призывов за три раунда, коробка была открыта, и внутри был
+                        обнаружен мини-проигрыватель компакт -дисков.
                     </p>
                     <h3>Оппозиция спорту</h3>
                     <div class="stih" id="stih">
@@ -644,16 +644,12 @@
                         Современные борцы за права животных , например, из Фламандского общества защиты птиц, обвиняют
                         дрессировщиков в том, что они « промывают мозги » птицам, заставляя их петь больше, чем это
                         естественно или полезно, путем воспроизведения зацикленных записей криков вьюрков, а также в
-                        том,
-                        что птицы помещаются в клетки в намеренно маленькие и темные конкурсные боксы. жесток. Зяблик —
-                        популярная вольерная птица во многих странах, и в Европейском союзе запрещено ловить птиц в
-                        дикой
-                        природе, несмотря на то, что винкеньеры утверждают, что дикие птицы поют лучше, чем содержащиеся
-                        в
-                        неволе. Хотя популяции зяблика в настоящее время не считаются находящимися под угрозой, в 2002
-                        г. судебное дело в Конституционном суде Бельгии подтвердило закон ЕС 1979 г.Закон о запрете
-                        отлова
-                        диких вьюрков.
+                        том, что птицы помещаются в клетки в намеренно маленькие и темные конкурсные боксы. жесток.
+                        Зяблик — популярная вольерная птица во многих странах, и в Европейском союзе запрещено ловить
+                        птиц в дикой природе, несмотря на то, что винкеньеры утверждают, что дикие птицы поют лучше, чем
+                        содержащиеся в неволе. Хотя популяции зяблика в настоящее время не считаются находящимися под
+                        угрозой, в 2002г. судебное дело в Конституционном суде Бельгии подтвердило закон ЕС 1979г. Закон
+                        о запрете отлова диких вьюрков.
                     </p>
                 </div>
             </div>
