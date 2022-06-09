@@ -44,9 +44,17 @@ figure {
 .povedenieImgEgg {
     margin: 0 10px 0 10px;
     width: 30%;
-    min-width: 160px;
+    min-width: 90px;
     max-width: 190px;
     max-height: 155px;
+    float: left;
+    object-fit: cover;
+}
+
+.leftFloat {
+    margin: 0 10px 0 10px;
+    width: 30%;
+    min-width: 90px;
     float: left;
     object-fit: cover;
 }
@@ -54,7 +62,7 @@ figure {
 .rightFloat {
     margin: 0 10px 0 10px;
     width: 30%;
-    min-width: 160px;
+    min-width: 90px;
     float: right;
     object-fit: cover;
 }
@@ -67,4 +75,14 @@ figure {
 
 .stih p {
     text-indent: 0;
+}
+
+@media (max-width: 830px) {
+    .leftFloat {
+        width: 25%;
+    }
+
+    .rightFloat {
+        width: 25%;
+    }
 }

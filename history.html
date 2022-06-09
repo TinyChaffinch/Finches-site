@@ -9,6 +9,8 @@
     <link rel="icon" type="image/png" href="/icons/browsertab-icon-chaffinch.png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="history.css">
+    <link rel="stylesheet" href="lightbox.css">
+    <script src="lightbox-plus-jquery.js" defer></script>
     <script src="scroll.js" defer></script>
     <title>Мир зябликов</title>
 </head>
@@ -35,8 +37,10 @@
                     <a class="back_to_top" title="Наверх">&uarr;</a>
                     <h1>Основная информация</h1>
                     <picture>
-                        <source class="rightFloat" srcset="image/Chaffinch.webp" type="image/webp" title="Зяблик">
-                        <img class="rightFloat" src="image/Chaffinch.jpg" type="image/jpg" title="Заблик">
+                        <source srcset="image/Chaffinch.webp" type="image/webp" title="Зяблик">
+                        <a href="image/Chaffinch-orig.jpg" data-lightbox="historyChaf">
+                            <img class="rightFloat" src="image/Chaffinch.jpg" type="image/jpg" title="Заблик">
+                        </a>
                     </picture>
                     <p>
                         Обыкновенный зяблик или просто зяблик (Fringilla coelebs) - обычная и широко распространенная
@@ -96,8 +100,10 @@
                     </ul>
                     <h1 id="taksonomiya">Таксономия</h1>
                     <picture>
-                        <source class="rightFloat" srcset="image/Carl.webp" type="image/webp" title="Карл Линней">
-                        <img class="rightFloat" src="image/Carl.jpg" type="image/jpg" title="Карл Линней">
+                        <source srcset="image/Carl.webp" type="image/webp" title="Карл Линней">
+                        <a href="image/Carl-orig.jpg" data-lightbox="historyCarl">
+                            <img class="rightFloat" src="image/Carl.jpg" type="image/jpg" title="Карл Линней">
+                        </a>
                     </picture>
                     <p>
                         Обыкновенный зяблик был описан шведским натуралистом Карлом Линнеем в 1758 году в 10-м издании
@@ -348,7 +354,9 @@
                         в восточную часть Северной Америки, хотя некоторые наблюдения могут быть беглецами.
                     </p>
                     <figure class="sreda">
-                        <img src="image/Rangemap.png" title="Карта зон обитания">
+                        <a href="image/Rangemap.png" data-lightbox="historyRang">
+                            <img src="image/Rangemap.png" title="Карта зон обитания">
+                        </a>
                         <figcaption>Карта зон обитания</figcaption>
                     </figure>
                     <h1 id="povedenie">Поведение</h1>
@@ -356,8 +364,10 @@
                     <picture>
                         <source class="povedenieImgEgg" srcset="image/Egg-of-chaffinch.webp" type="image/webp"
                             title="Яйца зябликов">
-                        <img class="povedenieImgEgg" src="image/Egg-of-chaffinch.jpg" type="image/jpg"
-                            title="Яйца зябликов">
+                        <a href="image/Egg-of-chaffinch.jpg" data-lightbox="historyEgg">
+                            <img class="povedenieImgEgg" src="image/Egg-of-chaffinch.jpg" type="image/jpg"
+                                title="Яйца зябликов">
+                        </a>
                     </picture>
                     <p>
                         Обыкновенные зяблики впервые размножаются, когда им исполняется 1 год. Они в основном моногамны,
@@ -369,10 +379,11 @@
                         июня. Самец привлекает самку на свою территорию песней.
                     </p>
                     <picture>
-                        <source class="rightFloat" srcset="image/Nest-of-chaffinch.webp" type="image/webp"
-                            title="Гнездо зябликов">
-                        <img class="rightFloat" src="image/Nest-of-chaffinch.jpg" type="image/jpg"
-                            title="Гнездо зябликов">
+                        <source srcset="image/Nest-of-chaffinch.webp" type="image/webp" title="Гнездо зябликов">
+                        <a href="image/Nest-of-chaffinch.jpg" data-lightbox="historyNest">
+                            <img class="rightFloat" src="image/Nest-of-chaffinch.jpg" type="image/jpg"
+                                title="Гнездо зябликов">
+                        </a>
                     </picture>
                     <p>
                         Гнезда строятся исключительно самкой и обычно располагаются в развилке куста или дерева на
@@ -412,18 +423,20 @@
                         возраст это 15 лет и 6 месяцев для птицы в Швейцарии.
                     </p>
                     <h2>Кормление</h2>
+                    <picture>
+                        <source srcset="image/Feeding.webp" type="image/webp" title="Кормление">
+                        <a href="image/Feeding.jpg" data-lightbox="historyFeed">
+                            <img class="leftFloat" src="image/Feeding.jpg" type="image/jpg" title="Кормление">
+                        </a>
+                    </picture>
                     <p>
-                        Вне сезона размножения обыкновенные зяблики в основном едят семена и другой растительный
-                        материал,
-                        который они находят на земле. Они часто кормятся на открытой местности большими стаями.
-                        Обыкновенные
+                        Вне сезона размножения зяблики в основном едят семена и другой растительный материал, который
+                        они находят на земле. Они часто кормятся на открытой местности большими стаями. Обыкновенные
                         зяблики редко берут пищу непосредственно из растений и только очень редко используют свои ноги
-                        для
-                        обработки пищи. Во время сезона размножения их рацион переключается на беспозвоночных, особенно
-                        дефолиирующих гусениц. Они питаются на деревьях, а также иногда делают короткие вылазки, чтобы
-                        поймать
-                        насекомых в воздухе. Молодые полностью питаются беспозвоночными, которые включают гусениц, тлю,
-                        уховертки, пауков и личинок (личинки жуков).
+                        для обработки пищи. Во время сезона размножения их рацион переключается на беспозвоночных,
+                        особенно дефолиирующих гусениц. Они питаются на деревьях, а также иногда делают короткие
+                        вылазки, чтобы поймать насекомых в воздухе. Молодые полностью питаются беспозвоночными, которые
+                        включают гусениц, тлю, уховертки, пауков и личинок (личинки жуков).
                     </p>
                     <h1 id="hishnik">Хищники и паразиты</h1>
                     <p>
@@ -513,10 +526,11 @@
                     </p>
                     <h1 id="vinkensport">Винкенспорт</h1>
                     <picture>
-                        <source class="rightFloat" srcset="image/Vinkensport.webp" type="image/webp"
-                            title="Соревнования по Винкенспорту">
-                        <img class="rightFloat" src="image/Vinkensport.jpg" type="image/jpg"
-                            title="Соревнования по Винкенспорту">
+                        <source srcset="image/Vinkensport.webp" type="image/webp" title="Соревнования по Винкенспорту">
+                        <a href="image/Vinkensport-orig.jpg" data-lightbox="historyVink">
+                            <img class="rightFloat" src="image/Vinkensport.jpg" type="image/jpg"
+                                title="Соревнования по Винкенспорту">
+                        </a>
                     </picture>
                     <p>
                         Vinkensport (Винкенспорт) (c голландского «спорт зябликов») - это соревновательный вид спорта с
