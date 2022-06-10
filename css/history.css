@@ -41,6 +41,8 @@ figure {
     object-fit: cover;
 }
 
+/* Прижатие изоображений в тексте */
+
 .povedenieImgEgg {
     margin: 0 10px 0 10px;
     width: 30%;
