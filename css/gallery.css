@@ -20,11 +20,7 @@
 
 img:hover,
 img:focus {
-    -webkit-transition: .5s ease-in-out;
-    -moz-transition: .5s ease-in-out;
-    -o-transition: .5s ease-in-out;
-    transition: .5s ease-in-out;
-    transform: scale(1.1);
+    scale: 1.1;
 }
 
 @media (max-width: 830px) {
